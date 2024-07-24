@@ -17,10 +17,8 @@ const contactSchema = mongoose.Schema({
         type: String,
         required: [true, "Please add Email Address"]
     },
-},
-{
+},{
     timestemps: true
-}
-)
+})
 
 module.exports = mongoose.model("Contact", contactSchema)
